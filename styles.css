@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/15db490066f3892032387f14ef589970?family=Kamerik+105+W00+Bold);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    background-image: url(images/Untitled_design_1.png);
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 99;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    height: 100px;
+}
+.nav-content{
+    max-width: 632px;
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.logo a{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fbeee0;
+    transition: 0.6s;   
+}
+.logo-Center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 150px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.logo a:hover{
+    color: rgb(126, 239, 239);
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.6s;
+}
+.background ul li a{
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    font-weight:600 ;
+    color: antiquewhite;
+    transition: 0.6s;
+ }
+ul li a:hover {
+    border-bottom-color: #ffffff;
+    border-top-color: #ffffff;
+}
+.para1{
+    position: relative; 
+    top: -470px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fbeee0;
+}
+.para2{
+    position: relative; 
+    top: -470px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fbeee0;
+}
+
+
+
+/* CSS */
+.btn{
+    display: flex;
+    justify-content: center;
+    top: -400px;
+    position: relative;
+}
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #ffffff 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 23px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #a1f4ff;
+  box-shadow: #4394c0 4px 4px 0 0;
+  transition: 0.3s;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 190px;
+    padding: 0 100px;
+  }
+}
+.hero{
+    background-color: white;
+}
+
+.para3{
+    font-family: "Kamerik 105 W00 Bold";
+    font-size: 6rem;
+    font-weight: 800;
+    color: #000000;
+    transition: 0.6s;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #fff;
+
+}
+.para4{
+    background-color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+    transition: 0.6s;   
+    min-height: 10vh;
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(0,1fr);
+    margin-top: 30px;
+    border-radius: 80px;
+    border: 2px solid #5b5b5b;
+    padding: 81px; 
+    width: 961px;
+    height: 834px;
+}
+.footer1{
+    background-color: #fff;
+    padding-top: 50px;
+}
+.site-footer {
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    }
+    .site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+    }
+    .site-footer hr.small {
+    margin: 20px 0;
+    }
+    .site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    }
+    .site-footer a {
+    color: #737373;
+    }
+    .site-footer a:hover {
+    color: #fff;
+    text-decoration: none;
+    }
+    .footer-links {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    font-weight:600 ;
+    color: antiquewhite;
+    }
+    .footer-links li {
+    display: block;
+    }
+    .footer-links a {
+    color: #737373;
+    }
+    .footer-links a:active,
+    .footer-links a:focus,
+    .footer-links a:hover {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    }
+    .copyright-text{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .newsocial-icons{
+        display: flex;
+        justify-content: center;
+        padding: 0.5rem 1rem;
+        font-weight:600 ;
+        color: antiquewhite;
+        transition: 0.6s;
+    }
+.instagram{
+    padding-right: 40px;
+
+}
+.newsocial-icons1{
+    display: flex;
+    justify-content: space-evenly;
+
+}
